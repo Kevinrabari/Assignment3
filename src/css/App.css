@@ -1,0 +1,42 @@
+.sidebar {
+    max-width: 240px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(67, 163, 80);
+  }
+  
+  body {
+    
+    margin: 0;
+    padding: 0;
+  }
+
+  .Sidebar{
+    height: 100%;
+    width: 250px;
+  }
+
+  .SidebarList{
+    height: 100%;
+    width: 100%;
+  }
+
+  .SidebarList .row{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    list-style-type: none;
+    margin: 0%;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+  }
